@@ -17,7 +17,7 @@
     .attribution a { color: hsl(228, 45%, 44%); }
 
     @media (min-width: 500px){
-      .container {
+      .card {
         width: 300px;
       }
     }
@@ -28,43 +28,47 @@
     }
     body {
         background-color: hsl(212, 45%, 89%);
-        height:100vh;
+        font-size:15px;
+        height:calc(100vh - 1px);
         display:flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        margin: 1.25rem;
     }
     .card {
         background-color: hsl(0, 0%, 100%);
         width:300px;
-        padding:20px;
+        padding: 1.25rem;
         border-radius:15px;
         align-items: center;
         justify-content: center;
-        text-align: center;
         box-shadow: 4px 4px 10px rgba(0,0,0,0.1);
+        margin-bottom: 2rem;
     }
     .qr-image {
       width:100%;
-      margin-bottom:20px;
+      margin-bottom:1rem;
       border-radius:15px;
     }
 
     h1 {
       font-family:'Outfit';
-      margin-bottom:15px;
+      margin-bottom:1rem;
       font-size:1.25rem;
       font-weight: 700;
       color:hsl(218, 44%, 22%);
+      text-align: center;
       }
 
     p {
       font-family:'Outfit';
-      margin-bottom:15px;
-      font-size: 1rem;
+      margin-bottom:1rem;
+      font-size: 15px;
       font-weight: 400;
       line-height: 1.5;
-      color:dimgrey;
+      color:hsl(216, 15%, 48%);
+      text-align: center;
     }
   </style>
 </head>
@@ -75,10 +79,10 @@
     <h1> Improve your front-end skills by building projects</h1>
     <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
  </div>
-<br><br>
+
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">A.Varsha</a>.
+    Coded by <a href="https://github.com/Varsha-A03/QR-Code-Project" target="blank">A.Varsha</a>.
   </div>
 </body>
 </html>
